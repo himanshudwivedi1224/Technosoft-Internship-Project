@@ -1,0 +1,10 @@
+
+{% block content %}
+<div>
+    <p>
+        List
+    </p>
+    {% for data in classroom %}
+    <p> {{data.classroom_floor }}</p>
+    {% endfor %}
+</div>
